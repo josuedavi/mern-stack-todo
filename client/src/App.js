@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import ScrollArea from "react-scrollbar";
 import './App.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { UpdateTodo } from './components/updateTodo';
 
 const CloseIcon = (props) =>(
