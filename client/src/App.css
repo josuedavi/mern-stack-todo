@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+.btn {
+  display: inline-block;
+  background: green;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.green {
+  background-color: green;
+}
+
+.same {
+  display: inline-block;
+padding: 10px 15px;
+font-size: 20px;
+border-radius: 0;
+-webkit-appearance: none;
+border: 1px solid transparent;
+}
+
+form {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+p {
+  padding: 10px 20px;
+ 
+  border-radius: 10px;
+  margin: 10px; 
+  list-style-type: none;
+  margin: 0;
+ 
+ 
+  
+}
+
+svg{
+height: 20px;
+}
+.border {
+  display: flex;
+}
+
+
+button{
+	background: none;
+	color: inherit;
+	border: none;
+
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  float: right;
+}
+
+input[type="text"]
+{
+    font-size:30px;
+}
